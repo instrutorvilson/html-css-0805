@@ -1,0 +1,187 @@
+<html>
+
+<head>
+    <title>
+        Cadastro de produto
+    </title>
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .topo {
+            background-color: #C4C4C4;
+            height: 32px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            display: flex;
+        }
+
+        .logo {
+            display: flex;
+            background-color: #FCEAEA;
+            width: 50px;
+            height: 25px;
+            margin-left: 7px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu {
+            padding-bottom: 9px;
+            padding-top: 9px;
+        }
+
+        .itemMenu {
+            display: inline;
+            margin-right: 11px;
+        }
+        .contaneirForm {
+            position: relative;
+            background-color: #D4DCDD;
+            box-sizing: border-box;
+            display: block; 
+            padding-bottom: 20px; 
+            padding-bottom: 24px;  
+            height: vh80;                
+        }
+
+        .itemContainer {
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 9px;
+        }
+
+
+        label {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            color: #000000;
+            width: 100%;
+            border-bottom: 5px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            background: #F8FCFC;
+            border-radius: 10px;
+        }
+
+        option {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+        }
+
+        .buttonContainer {
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 9px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btSalvar {
+            background-color: #5C8997;
+            border-radius: 15px;
+            width: 100px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+
+            color: #F11212;
+        }
+
+        .btCancelar {
+            background: #FF8F96;
+            border-radius: 15px;
+            width: 100px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+
+            color: #F4FFFF;
+            margin-right: 0px;
+        }
+
+        .rodape {
+            background-color: #C4C4C4;
+            height: 25px;
+            padding: 7px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topo">
+        <div class="logo">LOGO</div>
+        <div class="menu">
+            <ul>
+                <li class="itemMenu">Cadastros</li>
+                <li class="itemMenu">Consultas</li>
+            </ul>
+        </div>
+    </div>
+    <div class="contaneirForm">
+        <div class="itemContainer">
+            <label>Descrição</label>
+            <input />
+        </div>
+
+        <div class="itemContainer">
+            <label>Categoria</label>
+            <select>
+                <option>Frutas</option>
+                <option>Verduras</option>
+                <option>Bebidas</option>
+            </select>
+        </div>
+
+        <div class="itemContainer">
+            <label>Preço</label>
+            <input />
+        </div>
+
+        <div class="itemContainer">
+            <label>Quantidade em estoque</label>
+            <input />
+        </div>
+
+        <div class="itemContainer">
+            <label>Observação</label>
+            <textarea>
+
+             </textarea>
+        </div>
+        <div class="buttonContainer">
+            <button class="btSalvar">Salvar</button>
+            <button class="btCancelar">Cancelar</button>
+        </div>
+
+    </div>
+    <div class="rodape">
+        Direitos autorais reservados
+    </div>
+</body>
+
+</html>
